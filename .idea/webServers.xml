@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b137bcfd-86fb-4e29-91ca-eae9563cfb0b" name="neo.si">
+        <fileTransfer accessType="SFTP" host="neo.si-24.ru" port="22" sshConfigId="f66bc1e5-e2da-4189-a54d-d9e0e236167c" sshConfig="root@neo.si-24.ru:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fbad5895-4eab-473f-89e9-e143c808bba9" name="size.bx">
+        <fileTransfer accessType="SFTP" host="size.bx.p-24.ru" port="22" sshConfigId="e605a3b7-7739-4ab5-8079-6336500f66f1" sshConfig="root@size.bx.p-24.ru:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
